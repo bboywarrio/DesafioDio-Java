@@ -1,18 +1,23 @@
-## Getting Started
+# Projeto Simples de Conta Bancária em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em Java que permite ao usuário interagir com uma conta bancária através do terminal/console.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Criação de uma conta bancária
+- Exibição do número da conta, número da agência, nome do cliente e saldo disponível
+- Não há funcionalidades de depósito, saque ou transferência implementadas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como Executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Certifique-se de ter o Java JDK instalado em seu sistema.
+2. Baixe ou clone este repositório em seu computador.
+3. Abra um terminal e navegue até o diretório do projeto.
+4. Compile o arquivo Java com o comando `javac ContaTerminal.java`.
+5. Execute o programa com o comando `java ContaTerminal`.
+6. Siga as instruções no terminal para inserir o número da conta, número da agência, nome do cliente e saldo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Autor
 
-## Dependency Management
+Este projeto foi desenvolvido por [Victor Miguel da Silva](https://www.linkedin.com/in/victor-miguel-da-silva-28923b242/).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
